@@ -100,7 +100,10 @@ const HomePage = () => {
           </div>
         </form>
       </div>
-
+      <div className="col-auto d-flex justify-content-around w-25">
+        <button class="btn bg-color custom-bg-text mb-3 ">Recomended Product</button>
+        <button class="btn bg-color custom-bg-text mb-3" >Nearest Product</button>
+      </div>
       <div className="col-md-12 mt-3 mb-5">
         <div className="row row-cols-1 row-cols-md-4 g-4">
           {products.map((product) => {
